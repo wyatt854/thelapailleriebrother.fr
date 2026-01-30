@@ -13,39 +13,32 @@
         .logo { font-weight: 700; text-transform: uppercase; text-decoration: none; color: var(--dark); }
         .nav-links a { text-decoration: none; color: var(--dark); margin-left: 2rem; font-weight: 500; }
         .container { padding: 5rem 10%; }
-        h1 { font-size: 3rem; margin-bottom: 3rem; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-        .card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.03); transition: 0.3s; border: 1px solid transparent; }
-        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
-        .card-img { height: 200px; background: linear-gradient(45deg, #e0e7ff, #f3e8ff); }
-        .card-body { padding: 1.5rem; }
+        .card { background: white; border-radius: 20px; padding: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); }
+        .card-img { height: 150px; background: linear-gradient(45deg, #e0e7ff, #f3e8ff); border-radius: 15px; margin-bottom: 15px; }
     </style>
 </head>
 <body>
     <nav>
-        <a href="/" class="logo">The Lapaillerie Brother</a>
+        <a href="https://wyatt854.github.io/thelapailleriebrother.fr/index.html" class="logo">The Lapaillerie Brother</a>
         <div class="nav-links">
-            <a href="/">Accueil</a>
-            <a href="/portfolio/">Portfolio</a>
-            <a href="/contact/">Contact</a>
+            <a href="https://wyatt854.github.io/thelapailleriebrother.fr/index.html">Accueil</a>
+            <a href="https://wyatt854.github.io/thelapailleriebrother.fr/portfolio/index.html">Portfolio</a>
+            <a href="https://wyatt854.github.io/thelapailleriebrother.fr/contact/index.html">Contact</a>
         </div>
     </nav>
     <div class="container">
-        <h1>Nos Travaux</h1>
+        <h1 style="margin-bottom: 2rem;">Nos Travaux</h1>
         <div class="grid">
             <div class="card">
                 <div class="card-img"></div>
-                <div class="card-body">
-                    <h3>Projets de Wyatt</h3>
-                    <p>Développement, GitHub et archives numériques.</p>
-                </div>
+                <h3>Projets de Wyatt</h3>
+                <p>Développement et GitHub.</p>
             </div>
             <div class="card">
                 <div class="card-img"></div>
-                <div class="card-body">
-                    <h3>Projets de Léo</h3>
-                    <p>Découvertes et créations partagées.</p>
-                </div>
+                <h3>Projets de Léo</h3>
+                <p>Créations et partages.</p>
             </div>
         </div>
     </div>
